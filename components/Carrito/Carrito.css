@@ -1,0 +1,41 @@
+.carrito{
+    background-color: green;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 1em;
+}
+
+.contenedorCarrito{
+    position: relative; 
+}
+
+.numeroProductos{
+    background-color: orange;
+    border-radius: 1em;
+    width: 1em;
+    height: 1em;
+    color: white;
+    position: absolute;
+    bottom: -30%;
+    left: 25%;
+}
+
+.numeroProductos p{
+    font-size: .7em;
+}
+
+.lista{
+    width: 10em;
+    height: 0;
+    overflow: visible;
+}
+
+.articulo{
+    background-color: green;
+    padding: .5em 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,31 @@
+.card{
+    min-width: 100px;
+    padding: 1vmax;
+    width: 30%;
+    border-radius: 1em;
+    box-shadow: 1px 1px 5px rgb(198, 198, 198);
+}
+
+.card img{
+    object-fit: cover;
+    width: 90%;
+    height: 15vmax;
+}
+
+.card figcaption{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: .5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card button{
+    background-color: green;
+    color: white;
+    padding: .5em 0;
+    width: 50%;
+    border: none;
+    border-radius: .5em;
+}
